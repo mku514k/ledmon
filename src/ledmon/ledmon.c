@@ -937,6 +937,7 @@ static void _close_parent_fds(void)
 }
 
 /**
+ * ¯\_(ツ)_/¯
  */
 int main(int argc, char *argv[])
 {
