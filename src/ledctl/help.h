@@ -29,3 +29,4 @@ void _print_main_help(void);
 void _ledctl_version(void);
 
 #endif // HELP_H_INCLUDED_
+
