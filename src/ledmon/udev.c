@@ -1,5 +1,5 @@
 /*
- * Intel(R) Enclosure LED Utilities
+ * Intel(R) Lemon tree
  * Copyright (C) 2022-2024 Intel Corporation.
  *
  * This library is free software; you can redistribute it and/or
