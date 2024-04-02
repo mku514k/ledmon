@@ -1119,8 +1119,6 @@ static led_status_t load_library_prefs(void)
  *                                element on the list is NULL pointer.
  *
  * @return LED_STATUS_SUCCESS if successful, otherwise led_status_t.
- *
- * :O so there is a description here.
  */
 int main(int argc, char *argv[])
 {

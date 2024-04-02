@@ -327,3 +327,4 @@ void _print_main_help(void)
 {
 	print_help_mode(&general_mode);
 }
+

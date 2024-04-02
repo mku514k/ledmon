@@ -2,6 +2,7 @@ name: Nitpicker
 on: [pull_request]
 jobs:
   formatting-check:
+    if: github.repository == 'mku514k/ledmon'
     name: tag codeowners
     runs-on: ubuntu-latest
     steps:

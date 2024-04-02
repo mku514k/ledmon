@@ -1,9 +1,9 @@
 - markdown: |
     Hey @mku514k, ledmon files were modified!
   pathFilter:
-    - 'src/ledmon/*'
+    - 'src/ledctl/*'
 
 - markdown: |
-    Hey @mku514k, ledctl files were modified!
+    Hey @ktanska, files you own were modified!
   pathFilter:
     - 'src/ledctl/*'
