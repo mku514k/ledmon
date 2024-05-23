@@ -238,6 +238,7 @@ char *dellssd_get_path(const char *cntrl_path)
 	return strdup(cntrl_path);
 }
 
+// This is my test comment!
 int dellssd_write(struct block_device *device, enum led_ibpi_pattern ibpi)
 {
 	unsigned int bus, dev, fun;
