@@ -4,13 +4,12 @@ permissions:
   pull-requests: write
 jobs:
   formatting-check:
-    if: github.repository == 'intel/ledmon'
     name: tag codeowners
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v2
     - name: nitpicker
-      uses: ethanis/nitpicker@v1.7
+      uses: ethanis/nitpicker@v1.6
       with:
         nitpicks: './.github/nitpicks.yml'
         token: '${{ secrets.GITHUB_TOKEN }}'
